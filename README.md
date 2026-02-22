@@ -2,9 +2,9 @@
 
 # Modusnap Local Bridge
 
-Public reference repository for the Modusnap Local Bridge.
+Production local bridge implementation for Modusnap Engine.
 
-[![Status](https://img.shields.io/badge/status-reference_repo-0b1220?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/status-production_implementation-0b1220?style=for-the-badge)](#)
 [![Language](https://img.shields.io/badge/language-python-0b1220?style=for-the-badge)](#)
 
 </div>
@@ -12,7 +12,7 @@ Public reference repository for the Modusnap Local Bridge.
 ## Overview
 
 This bridge connects a local ComfyUI runtime to Modusnap over WebSocket.
-It now includes **hardware capability detection** and a transparent capability handshake so backend routing can choose compatible execution paths.
+It includes **hardware capability detection** and a transparent capability handshake so backend routing can choose compatible execution paths.
 
 ## Run
 
@@ -54,14 +54,3 @@ The same profile is attached to ComfyUI prompt submissions in `extra_data.modusn
 - `bridge.execution_ack` (sent after local queue attempt)
 - `bridge.request_capabilities` (responds with current capabilities)
 - `ping` / `pong`
-
-## Public Scope
-
-Included:
-- capability handshake behavior
-- reference execution flow
-- transparent metadata contract
-
-Excluded:
-- production auth internals
-- private deployment and operations
