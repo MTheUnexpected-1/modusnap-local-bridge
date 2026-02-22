@@ -1,11 +1,18 @@
-# Modusnap Local Bridge (Reference)
+<div align="center">
+
+# Modusnap Local Bridge
 
 Public reference repository for the Modusnap Local Bridge.
 
-## Scope
+[![Status](https://img.shields.io/badge/status-reference_repo-0b1220?style=for-the-badge)](#)
+[![Language](https://img.shields.io/badge/language-python-0b1220?style=for-the-badge)](#)
 
-This repository provides a minimal reference implementation of the local bridge client.
-Detailed production behavior, commercial deployment patterns, and internal integration workflows are intentionally not published.
+</div>
+
+## Overview
+
+This public repository keeps a minimal bridge client reference for local execution connectivity.
+Detailed production implementation remains private.
 
 ## Run
 
@@ -13,7 +20,12 @@ Detailed production behavior, commercial deployment patterns, and internal integ
 python3 main.py --key <API_KEY>
 ```
 
-## Notes
+## Public Scope
 
-- Requires a running local ComfyUI backend.
-- This public repository is documentation/reference oriented.
+Included:
+- minimal startup flow
+- reference usage
+
+Excluded:
+- production internals
+- private deployment and operations
